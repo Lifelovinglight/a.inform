@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x27c0720" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x7f94002af4a0"/>
+  <activeNode nodeId="node-0x7f94003b6610"/>
   <item nodeId="node-0x27c0720">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -11,7 +11,7 @@ You are yanked from your slumber with a howl, cold sweat streaming down your bod
 
 a
 An Interactive Fiction by whiteline
-Release 1 / Serial number 180302 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 180303 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Bedroom
 The baleful star shines in through the window. Your bed is a mess. The kitchen lies to the east.
@@ -33,6 +33,7 @@ The baleful star shines in through the window. Your bed is a mess. The kitchen l
       <child nodeId="node-0x309ac00"/>
       <child nodeId="node-0x7f941c0f5340"/>
       <child nodeId="node-0x7f94001062d0"/>
+      <child nodeId="node-0x7f9408545d80"/>
     </children>
   </item>
   <item nodeId="node-0x27c08a0">
@@ -57,7 +58,7 @@ Helicopter noises thunder overhead as searchlights glare in through the kitchen 
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -528,7 +529,7 @@ Your suit lies crumpled in a corner.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -631,7 +632,7 @@ A desk is shoved up against a wall, covered in papers.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -690,7 +691,7 @@ Helicopter noises thunder overhead as searchlights glare in through the kitchen 
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -709,7 +710,7 @@ Klezmer music streams out from one of the doors to the west.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -927,7 +928,9 @@ Large shadows move about all around you. Beyond them, enormous shapes covered in
   </item>
   <item nodeId="node-0x30cea30">
     <command xml:space="preserve">d</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+    <result xml:space="preserve">
+Lobby
+A front desk sits by the door leading out south-ways to the yard while a stairway to the north circles up into darkness. A wooden door stands in the north-eastern corner.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -937,11 +940,225 @@ Large shadows move about all around you. Beyond them, enormous shapes covered in
     <annotation xml:space="preserve"></annotation>
     <children>
       <child nodeId="node-0x30cebb0"/>
+      <child nodeId="node-0x7f94002af7a0"/>
     </children>
   </item>
   <item nodeId="node-0x30cebb0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f94002af7a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f94002af620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f94002af620">
+    <command xml:space="preserve">be</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f94002af920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f94002af920">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">(first opening the wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f94002afaa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f94002afaa0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Upper Corridor
+Dark walls rising over wood flooring forms this corridor. There are doors east and west and a stairwell snakes down to the ground floor to the north.
+
+Klezmer music streams out from one of the doors to the west.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f94002afc20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f94002afc20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Lobby
+A front desk sits by the door leading out south-ways to the yard while a stairway to the north circles up into darkness. A wooden door stands in the north-eastern corner.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f94002afda0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f94002afda0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Upper Corridor
+Dark walls rising over wood flooring forms this corridor. There are doors east and west and a stairwell snakes down to the ground floor to the north.
+
+Klezmer music streams out from one of the doors to the west.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f94002aff20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f94002aff20">
+    <command xml:space="preserve">take music</command>
+    <result xml:space="preserve">The shadows darken and lean in towards you.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f9408545180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f9408545180">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You attempt to push through the shadows on your sides but brusquely get jolted back. After a few attempts you manage to slip through.
+
+Warsaw Grand Square
+Here lies the great corpse-pit, a vast gulf of darkness fifty meters across encircled by the pavement of the Grand Square. Men in long black coats stand haggling in booths and by carts all around. The clock of the Palace reads midnight.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f9408545300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f9408545300">
+    <command xml:space="preserve">look palace</command>
+    <result xml:space="preserve">The great stained-glass windows of the Palace of Trade glimmers in the electric-lights that also illuminates its great clock.
+
+A donkey cart full of naked, emaciated corpses arrive by the rim of the pit. As the cart tilts backward they fall first en masse, then one by one into the deep gulf.
+
+The great bell of the Palace rings out into the night.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f9408545480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f9408545480">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You take a few steps back and launch yourself into a running jump over the edge. You fall and fall and fall for what seems like several minutes.
+
+A human skull catches your shoulder hard and the rest of your body slams into the top of a mountain of corpses. Down and down and down you tumble, coming to rest against the wall of the pit.
+
+Charnel Pit
+You are up against the edge of the pit, a barely curving wall of slimy gray brickwork. A morass of bones and rotting flesh crunch underfoot - enormous piles of corpses loom over you from all sides that is not the wall.
+
+A wooden grate is affixed into the wall.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f9408545600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f9408545600">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f9408545780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f9408545780">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Warsaw Grand Square
+Here lies the great corpse-pit, a vast gulf of darkness fifty meters across encircled by the pavement of the Grand Square. Men in long black coats stand haggling in booths and by carts all around. The clock of the Palace reads midnight.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f9408545900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f9408545900">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You take a few steps back and launch yourself into a running jump over the edge. You fall and fall and fall for what seems like several minutes.
+
+A human skull catches your shoulder hard and the rest of your body slams into the top of a mountain of corpses. Down and down and down you tumble, coming to rest against the wall of the pit.
+
+Charnel Pit
+You are up against the edge of the pit, a barely curving wall of slimy gray brickwork. A morass of bones and rotting flesh crunch underfoot - enormous piles of corpses loom over you from all sides that is not the wall.
+
+A wooden grate is affixed into the wall.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1346,7 +1563,7 @@ A wooden grate is affixed into the wall.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1362,7 +1579,7 @@ Large shadows move about all around you. Beyond them, enormous shapes covered in
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1527,7 +1744,7 @@ Here lies the great corpse-pit, a vast gulf of darkness fifty meters across enci
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1552,7 +1769,7 @@ The great bell of the Palace rings out into the night.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1566,7 +1783,7 @@ The great bell of the Palace rings out into the night.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1580,7 +1797,7 @@ The great bell of the Palace rings out into the night.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1594,7 +1811,7 @@ The great bell of the Palace rings out into the night.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1614,7 +1831,7 @@ A bright light descends between the houses with a great roar - you yell out in f
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1629,7 +1846,7 @@ A naked light-bulb illuminates some shelving containing cleaning supplies and ot
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1645,7 +1862,7 @@ A front desk sits by the door leading out south-ways to the yard while a stairwa
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1663,7 +1880,7 @@ Klezmer music streams out from one of the doors to the west.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1679,7 +1896,7 @@ A front desk sits by the door leading out south-ways to the yard while a stairwa
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -3488,6 +3705,311 @@ A wooden grate is affixed into the wall.
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f9408545d80">
+    <command xml:space="preserve">examine hand</command>
+    <result xml:space="preserve">You are naked!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f9408545c00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f9408545c00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You crawl on all fours, slinking through the doorway away from the horrible light.
+
+Kitchen
+Pots and pans lie strewn across the floor.  Everything is upended. Your bedroom is to the west, your study lies to the south and the front door leads southwest.
+
+Helicopter noises thunder overhead as searchlights glare in through the kitchen window.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f9408545a80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f9408545a80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Study
+A desk is shoved up against a wall, covered in papers.
+
+Your suit lies crumpled in a corner.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f9408545f00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f9408545f00">
+    <command xml:space="preserve">get suit</command>
+    <result xml:space="preserve">You scurry into you rust-brown tweed suit like a frightened rat, quickly tying a Windsor knot from muscle memory.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f940038c170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f940038c170">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+Pots and pans lie strewn across the floor.  Everything is upended. Your bedroom is to the west, your study lies to the south and the front door leads southwest.
+
+Helicopter noises thunder overhead as searchlights glare in through the kitchen window.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f940038c2f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f940038c2f0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">(first opening the front door)
+
+Upper Corridor
+Dark walls rising over wood flooring forms this corridor. There are doors east and west and a stairwell snakes down to the ground floor to the north.
+
+Klezmer music streams out from one of the doors to the west.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f940038c470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f940038c470">
+    <command xml:space="preserve">examine music</command>
+    <result xml:space="preserve">The shadows darken and lean in towards you.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f940038c5f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f940038c5f0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Ghetto
+Large shadows move about all around you. Beyond them, enormous shapes covered in yellow lights reach up to an unseen sky.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f940038c770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f940038c770">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You attempt to push through the shadows on your sides but brusquely get jolted back. After a few attempts you manage to slip through.
+
+Warsaw Grand Square
+Here lies the great corpse-pit, a vast gulf of darkness fifty meters across encircled by the pavement of the Grand Square. Men in long black coats stand haggling in booths and by carts all around. The clock of the Palace reads midnight.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f940038c8f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f940038c8f0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Warsaw Grand Square
+Here lies the great corpse-pit, a vast gulf of darkness fifty meters across encircled by the pavement of the Grand Square. Men in long black coats stand haggling in booths and by carts all around. The clock of the Palace reads midnight.
+
+A donkey cart full of naked, emaciated corpses arrive by the rim of the pit. As the cart tilts backward they fall first en masse, then one by one into the deep gulf.
+
+The great bell of the Palace rings out into the night.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f940038ca70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f940038ca70">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You take a few steps back and launch yourself into a running jump over the edge. You fall and fall and fall for what seems like several minutes.
+
+A human skull catches your shoulder hard and the rest of your body slams into the top of a mountain of corpses. Down and down and down you tumble, coming to rest against the wall of the pit.
+
+Charnel Pit
+You are up against the edge of the pit, a barely curving wall of slimy gray brickwork. A morass of bones and rotting flesh crunch underfoot - enormous piles of corpses loom over you from all sides that is not the wall.
+
+A wooden grate is affixed into the wall.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f940038cbf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f940038cbf0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">The opening is just a small circle far, far above you.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f940038cd70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f940038cd70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the wooden grate)
+You desperately try to tear away one of the planks and the wet oak budges a little bit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f940038cef0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f940038cef0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the wooden grate)
+You desperately try to tear away one of the planks and the wet oak budges a little bit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f94003b6190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f94003b6190">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the wooden grate)
+The rotting wood finally gives way, creating an opening for escape!
+
+Symmetric Alley
+A long alley, or road, flanked by perfectly symmetrical houses down to the seaside docks. Behind you is a gray brick wall.
+
+A wooden grate is affixed into the wall.
+
+A bright light descends between the houses with a great roar - you yell out in fear as you realize the gun-ship has you cornered!
+
+Sharp pain shoots up from your left hand.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f94003b6310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f94003b6310">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Storage Closet
+A naked light-bulb illuminates some shelving containing cleaning supplies and other, less identifiable things. The door to the west has been torn open, the wood in the frame splintered.
+
+Sharp pain shoots up from your left hand.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f94003b6490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f94003b6490">
+    <command xml:space="preserve">look hand</command>
+    <result xml:space="preserve">You are wearing your tweed suit. You brush off a few specks of dust from your arm.
+ Your left hand has several large splinters in it and is slick with blood.
+
+Sharp pain shoots up from your left hand.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f94003b6610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f94003b6610">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Lobby
+A front desk sits by the door leading out south-ways to the yard while a stairway to the north circles up into darkness. A wooden door has been torn open in the north-eastern corner.
+
+Sharp pain shoots up from your left hand.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>

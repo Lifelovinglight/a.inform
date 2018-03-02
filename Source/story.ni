@@ -9,7 +9,7 @@ When play begins:
 	say "You are yanked from your slumber with a howl, cold sweat streaming down your body!"
 	
 Instead of examining the player when clothed:
-	say "You are wearing your tweed suit. You brush off a few specks of dust from your arm." instead.
+	say "You are wearing your tweed suit. You brush off a few specks of dust from your arm.[if the player is wounded] Your left hand has several large splinters in it and is slick with blood.[end if]" instead.
 	
 Instead of examining yourself when not clothed:
 	say "You are naked!" instead.
@@ -55,7 +55,7 @@ Instead of taking the suit:
 	Remove the suit from play;
 	Now the player is clothed.
 
-The Upper Corridor is a room. "Dark walls rising over wood flooring forms this corridor. There are doors east and west and a stairwell snakes down to the ground floor to the north."	
+The Upper Corridor is a room. "Dark walls rising over wood flooring forms this corridor. There are doors east and west and a stairwell snakes down to the ground floor to the north."
 	
 The front door is a door. It is southwest of the kitchen and east of the upper corridor. The front door is scenery.
 
@@ -86,7 +86,7 @@ The Lobby is a room. "A front desk sits by the door leading out south-ways to th
 
 The lobby is below the upper corridor. The upper corridor is north of the lobby. The lobby is north of the upper corridor.
 
-The storage closet is a room. "A naked light-bulb illuminates some shelving containing cleaning supplies and other, less identifiable things. The door to the west has been torn open, the wood in the frame splintered."
+The Storage Closet is a room. "A naked light-bulb illuminates some shelving containing cleaning supplies and other, less identifiable things. The door to the west has been torn open, the wood in the frame splintered."
 
 The wooden door is a door. It is northeast of the lobby and west of the storage closet. It is locked. It is scenery.
 
@@ -116,6 +116,8 @@ The Charnel Pit is a room. "You are up against the edge of the pit, a barely cur
 
 The Charnel Pit is below warsaw grand square.
 
+Instead of going up in the charnel pit, say "The opening is just a small circle far, far above you."
+
 Before going down in warsaw grand square:
 	say "You take a few steps back and launch yourself into a running jump over the edge. You fall and fall and fall for what seems like several minutes.";
 	say "[line break]";
@@ -139,3 +141,8 @@ Every turn when the player is in symmetric alley:
 	move the player to the storage closet, without printing a room description;
 	now the wooden door is open;
 	now the player is wounded.
+	
+Every turn when the player is wounded:
+	say "Sharp pain shoots up from your left hand."
+	
+Understand "left hand", "left" and "hand" as yourself.
