@@ -28,6 +28,8 @@ Understand "pans" as the kitchenware.
 
 Instead of taking the kitchenware, say "Your shaking hands lack the strength to lift them at the moment." instead.
 
+The kitchen window is scenery in the kitchen. "[if the front yard has been visited]A few cars stand parked on the street outside as people walk past.[else]In the street outside the death-squads are fighting back the rabble as the gun-ships fly overhead providing fire support. There seems to be many losses on both sides.[end if]"
+
 The kitchen is east of the bedroom.
 
 Before going east in the bedroom:
@@ -36,7 +38,7 @@ Before going east in the bedroom:
 Instead of going west in the kitchen:
 	say "Never!" instead.
 	
-Every turn when the player is in the kitchen, say "Helicopter noises thunder overhead as searchlights glare in through the kitchen window."
+Every turn when the player is in the kitchen and the front yard has not been visited, say "Helicopter noises thunder overhead as searchlights glare in through the kitchen window."
 
 The Study is a room. "A desk is shoved up against a wall, covered in papers."
 
@@ -48,7 +50,7 @@ Your designs is scenery in the study. "It's your designs."
 
 Understand "papers" as your designs.
 
-Your suit is a thing in the study. "Your suit lies crumpled in a corner."
+Your suit is a thing in the study. "Your suit lies crumpled in a corner." The description is "Your trusty tweed suit. Somewhat unwashed but still presentable."
 
 Instead of taking the suit:
 	say "You scurry into you rust-brown tweed suit like a frightened rat, quickly tying a Windsor knot from muscle memory.";
@@ -78,13 +80,19 @@ A report knocking on rule:
 	
 The Ghetto is a room. "Large shadows move about all around you. Beyond them, enormous shapes covered in yellow lights reach up to an unseen sky."
 
+The shadows is scenery in the ghetto. Understand "shapes", "enormous", "yellow" and "lights" as the shadows.
+
 Instead of doing anything to the music:
 	say "The shadows darken and lean in towards you.";
 	move the player to the ghetto, without printing a room description.
 
 The Lobby is a room. "A front desk sits by the door leading out south-ways to the yard while a stairway to the north circles up into darkness. A wooden door [if the wooden door is closed]stands[else]has been torn open[end if] in the north-eastern corner."
 
-The lobby is below the upper corridor. The upper corridor is north of the lobby. The lobby is north of the upper corridor.
+The lobby is below the upper corridor.
+
+Instead of going north in the lobby, try going up instead.
+
+Instead of going north in the upper corridor, try going down instead.
 
 The Storage Closet is a room. "A naked light-bulb illuminates some shelving containing cleaning supplies and other, less identifiable things. The door to the west has been torn open, the wood in the frame splintered."
 
@@ -146,3 +154,5 @@ Every turn when the player is wounded:
 	say "Sharp pain shoots up from your left hand."
 	
 Understand "left hand", "left" and "hand" as yourself.
+
+The Front Yard is a room. It is south of the lobby. "A small, paved yard with some bushes and trees, lying at an intersection of two streets to the south and east. Birds tweet in the sunlight."
