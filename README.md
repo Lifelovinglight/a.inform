@@ -1,3 +1,6 @@
 # a.inform
 
-Suggested listening: Hocico - Sin Piel
+Suggested listening:
+	Hocico - Temple of Lies 
+	Hocico - Sin Piel
+	Hocico - Doomed to Perish

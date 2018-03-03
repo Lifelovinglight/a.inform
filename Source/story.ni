@@ -84,7 +84,8 @@ The shadows is scenery in the ghetto. Understand "shapes", "enormous", "yellow" 
 
 Instead of doing anything to the music:
 	say "The shadows darken and lean in towards you.";
-	move the player to the ghetto, without printing a room description.
+	move the player to the ghetto, without printing a room description;
+	remove the klezmer music from play.
 
 The Lobby is a room. "A front desk sits by the door leading out south-ways to the yard while a stairway to the north circles up into darkness. A wooden door [if the wooden door is closed]stands[else]has been torn open[end if] in the north-eastern corner."
 
