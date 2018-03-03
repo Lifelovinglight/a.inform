@@ -116,6 +116,10 @@ The Robed Men are scenery in warsaw grand square. "The black-robed men in hats a
 
 understand "black" and "coats" as the robed men.
 
+The opening is scenery in warsaw grand square. "The pit is encircled with the finest masonry this side of the Alps. It seems to eat all light that falls into it, so as to give an impression of a perfectly tranquil artificial lake in the night."
+
+understand "pit", "great", "great corpse-pit", "corpse-pit" and "corpse" as the opening.
+
 At the time when the corpse-wagon arrives:
 	say "A donkey cart full of naked, emaciated corpses arrive by the rim of the pit. As the cart tilts backward they fall first en masse, then one by one into the deep gulf.";
 	say "[line break]";
@@ -166,5 +170,15 @@ Every turn when the player is wounded:
 	say "Sharp pain shoots up from your left hand."
 	
 Understand "left hand", "left" and "hand" as yourself.
+
+Every turn when the player is in the lobby:
+	if the player has been wounded:
+		say "You hear sobbing from the door to the east, behind the counter."
+		
+The office door is scenery in the lobby. "A door behind the desk, presumably leading to your landlords office.[if the player has been wounded] Loud sobbing can be heard from inside.[end if]"
+
+Instead of opening or knocking on the office door, say "[if the player has been wounded]You knock on the door. The sobbing temporarily turns into frightened yelps and screams.[else]You have no business there.[end if]"
+
+Instead of going east in the lobby, try opening the office door instead.
 
 The Front Yard is a room. It is south of the lobby. "A small, paved yard with some bushes and trees, lying at an intersection of two streets to the south and east. Birds tweet in the sunlight."
