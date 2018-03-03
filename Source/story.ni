@@ -9,7 +9,7 @@ When play begins:
 	say "You are yanked from your slumber with a howl, cold sweat streaming down your body!"
 	
 Instead of examining the player when clothed:
-	say "You are wearing your tweed suit. You brush off a few specks of dust from your arm.[if the player is wounded] Your left hand has several large splinters in it and is slick with blood.[end if]" instead.
+	say "You are wearing your tweed suit. [if the player is wounded]Your left hand has several large splinters in it and is slick with blood.[else]You brush off a few specks of dust from your arm.[end if]" instead.
 	
 Instead of examining yourself when not clothed:
 	say "You are naked!" instead.
@@ -124,6 +124,8 @@ The opening is scenery in warsaw grand square. "The pit is encircled with the fi
 
 understand "pit", "great", "great corpse-pit", "corpse-pit" and "corpse" as the opening.
 
+Instead of entering the opening, try going down.
+
 At the time when the corpse-wagon arrives:
 	say "A donkey cart full of naked, emaciated corpses arrive by the rim of the pit. As the cart tilts backward they fall first en masse, then one by one into the deep gulf.";
 	say "[line break]";
@@ -139,10 +141,17 @@ Instead of going up in the charnel pit, say "The opening is just a small circle 
 
 The corpses is scenery in the charnel pit. "Corpse upon corpse upon corpse, of all genders and ages, every single one thin as a rail with graying skin stretched taut over bone."
 
-Instead of smelling or tasting in the charnel pit when the puddle of vomit is in the lobby:
+Instead of smelling, tasting in the charnel pit when the puddle of vomit is in the lobby:
 	say "You retch and heave but your stomach is empty."
 
 Instead of smelling or tasting in the charnel pit:
+	say "The part of your human nature that before now where in ignorance of your surroundings catch up to you and you retch as you empty your stomach upon the 'ground'.";
+	now the puddle of vomit is in the lobby.
+	
+Instead of doing anything to the corpses when the puddle of vomit is in the lobby:
+	say "You retch and heave but your stomach is empty."
+
+Instead of doing anything to the corpses:
 	say "The part of your human nature that before now where in ignorance of your surroundings catch up to you and you retch as you empty your stomach upon the 'ground'.";
 	now the puddle of vomit is in the lobby.
 
