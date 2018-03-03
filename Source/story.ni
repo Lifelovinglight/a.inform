@@ -173,7 +173,7 @@ Understand "left hand", "left" and "hand" as yourself.
 
 Every turn when the player is in the lobby:
 	if the player has been wounded:
-		say "You hear sobbing from the door to the east, behind the counter."
+		say "You hear a woman sobbing from the door to the east, behind the counter."
 		
 The office door is scenery in the lobby. "A door behind the desk, presumably leading to your landlords office.[if the player has been wounded] Loud sobbing can be heard from inside.[end if]"
 
