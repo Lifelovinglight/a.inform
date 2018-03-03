@@ -95,6 +95,10 @@ Instead of going north in the lobby, try going up instead.
 
 Instead of going north in the upper corridor, try going down instead.
 
+Before going down in the upper corridor, say "You walk down the stairs and enter the lobby."
+
+Before going up in the lobby, say "You walk up the stairs and wind up in the corridor."
+
 The Storage Closet is a room. "A naked light-bulb illuminates some shelving containing cleaning supplies and other, less identifiable things. The door to the west has been torn open, the wood in the frame splintered."
 
 The wooden door is a door. It is northeast of the lobby and west of the storage closet. It is locked. It is scenery.
