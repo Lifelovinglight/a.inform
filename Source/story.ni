@@ -124,7 +124,18 @@ The Charnel Pit is a room. "You are up against the edge of the pit, a barely cur
 
 The Charnel Pit is below warsaw grand square.
 
+A puddle of vomit is a thing. "A puddle of vomit has spread on the floor." The description is "Disgusting. There's a sour taste in your mouth."
+
 Instead of going up in the charnel pit, say "The opening is just a small circle far, far above you."
+
+The corpses is scenery in the charnel pit. "Corpse upon corpse upon corpse, of all genders and ages, every single one thin as a rail with graying skin stretched taut over bone."
+
+Instead of smelling or tasting in the charnel pit when the puddle of vomit is in the lobby:
+	say "You retch and heave but your stomach is empty."
+
+Instead of smelling or tasting in the charnel pit:
+	say "The part of your human nature that before now where in ignorance of your surroundings catch up to you and you retch as you empty your stomach upon the 'ground'.";
+	now the puddle of vomit is in the lobby.
 
 Before going down in warsaw grand square:
 	say "You take a few steps back and launch yourself into a running jump over the edge. You fall and fall and fall for what seems like several minutes.";
